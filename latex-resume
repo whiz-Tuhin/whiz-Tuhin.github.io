@@ -1,0 +1,186 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Font options
+\usepackage[sfdefault]{roboto}  % Sans-serif font
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{\Large\bfseries\scshape\raggedright}{}{0em}{}[\titlerule]
+
+% Ensure PDF is machine readable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingList}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge Tuhin Khare} \\
+  \small +1 (404)-490-8487 $|$ \href{mailto:tkhare7@gatech.edu}{tkhare7@gatech.edu} $|$ 
+  \href{https://www.linkedin.com/in/tuhin-khare/}{linkedin.com/in/tuhin-khare} $|$
+  \href{https://github.com/whiz-Tuhin}{github.com/whiz-Tuhin} $|$
+  \href{https://scholar.google.com/citations?user=gOqbVdUAAAAJ&hl=en}{Google Scholar}
+\end{center}
+
+\section*{Summary}
+Graduate student in Computer Science at Georgia Tech specializing in systems for AI, distributed systems, and cloud computing. Experienced in building high-performance inference systems, serverless orchestration platforms, and quantum-classical workload optimization. Published researcher with 9 papers in top-tier conferences (CCGrid, QCE, VLDB, HiPC). Strong background in C++, Python, and large-scale system design.
+
+\section{Technical Skills}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Programming Languages}: Python, Java, C++, C, CUDA, JavaScript, SQL, Haskell, Rust}
+  \resumeItem{\textbf{Tools \& Frameworks}: Docker, gRPC, Thrift, Hadoop, Spark, AWS, Azure, GCP, PyTorch, Spring Boot, Redis, DynamoDB, Qiskit (beginner), MongoDB, MySQL, Cassandra, SailsJS, OpenFaaS, OpenWhisk, Nginx, Apache Giraph, NetworkX}
+  \resumeItem{\textbf{Specializations}: Operating Systems, System Architecture, Databases, Cloud Computing, Distributed Systems, Data Structures}
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Georgia Institute of Technology}{Atlanta, GA}
+      {M.S. in Computer Science}{Aug 2024 -- May 2026}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Relevant Courses: Advanced Operating Systems, H/W S/W Co-Design, Systems for ML, GPU H/W S/W, Big Data Analytics}
+          \resumeItem{\textbullet\ Research project under Prof. Alexey Tumanov}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Manipal Institute of Technology}{Manipal, India}
+      {B.Tech in Computer Science}{Aug 2014 -- May 2018}
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Software Development Engineering Intern}{May 2025 -- Present}
+      {AWS DynamoDB}{Amazon Web Services}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Designed and implemented a lightweight CLI for JournalDB that orchestrates seamless leadership takeover across replica sets}
+          \resumeItem{\textbullet\ Automated secondary promotion and quorum reconfiguration, driving failover latency down to sub-second}
+          \resumeItem{\textbullet\ Deep integration with AWS control-plane and observability APIs enables one-command validation, rollout, and rollback}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Graduate Student Researcher}{Aug 2024 -- Present}
+      {Systems for AI Lab}{Georgia Tech}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Developing efficient DNN inference abstractions in C++, enabling transparent decoupling of deployment from policy logic}
+          \resumeItem{\textbullet\ Achieved over 12\% mean accuracy gains, 99.99\% SLO attainment, and scalability to ~20K queries per second}
+          \resumeItem{\textbullet\ Implemented state-of-the-art policies for multi-tenant scenarios while maximizing goodput and minimizing tail latency}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Head Teaching Assistant}{Jan 2025 -- May 2025}
+      {ECE 4150 - Cloud Computing}{Georgia Tech}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Leading course instruction and assignment design on AWS services, including EC2, SES, and Elastic Kubernetes}
+          \resumeItem{\textbullet\ Guiding students in cloud-native application development and deployment}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Senior Research Engineer}{Aug 2020 -- May 2024}
+      {Distributed Systems Lab}{Indian Institute of Science (IISc)}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Designed XFaaS, a cross-platform FaaS orchestration engine (Python, C++) for AWS, Azure, and GCP, reducing latency by 75\% and costs by 57\%}
+          \resumeItem{\textbullet\ Enhanced Qiskit SDK on IBM Quantum Cloud, achieving 3× speedup and resource efficiency in QSVM tasks}
+          \resumeItem{\textbullet\ Improved VQE accuracy by 39\% using circuit cutting, with additional 7\% accuracy gain through error mitigation}
+          \resumeItem{\textbullet\ Developed XFBench, a cross-cloud benchmarking suite providing insights into execution time and cold start behavior}
+          \resumeItem{\textbullet\ Published six research papers in top-tier conferences independently and with IBM Research India}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Software Development Engineer - 1}{Jul 2018 -- Feb 2020}
+      {Milvik Technologies Pvt. Ltd}{India}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Designed and implemented core APIs in Java Spring Boot for payment verification and user registration flows}
+          \resumeItem{\textbullet\ Built a reconciliation service leveraging Redis, improving request handling capacity to 11K requests/day}
+          \resumeItem{\textbullet\ Integrated Kafka for event-driven communication layer ensuring accurate premium tracking}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Software Development Engineer - Intern}{Jan 2018 -- Jun 2018}
+      {Postman Inc.}{India}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Worked on code generators, collection transformers, and Open API to Postman runtime conversion features in NodeJS}
+          \resumeItem{\textbullet\ Contributed to SDK development using SailsJS MVC with published work in postman-code-generators repository}
+      \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\section{Publications}
+\resumeSubHeadingList
+  \resumeItem{\textbullet\ \textbf{QuArch: A Benchmark for Evaluating LLM Reasoning in Computer Architecture}, (Submitted) ICLR' 26, Sept 2025}
+  \resumeItem{\textbullet\ \textbf{Triparts: Scalable Streaming Graph Partitioning to Enhance Community Structure}, (Accepted) VLDB' 25, Sept 2025}
+  \resumeItem{\textbullet\ \textbf{Choreography and Profiling of Quantum-Classical FaaS Workflows on Hybrid Clouds}, IEEE/ACM CCGrid' 25, May 2025}
+  \resumeItem{\textbullet\ \textbf{XFBench: A Cross-Cloud Benchmark Suite for Evaluating FaaS Workflow Platforms}, IEEE/ACM CCGrid' 24, May 2024}
+  \resumeItem{\textbullet\ \textbf{Towards a Cross-Platform Benchmark Suite for FaaS Workflows}, 30th IEEE HiPC' 24 (Best Poster Award), Dec 2023}
+  \resumeItem{\textbullet\ \textbf{Parallelizing Quantum-Classical Workloads: Profiling the Impact of Splitting Techniques}, IEEE QCE' 23, Sept 2023}
+  \resumeItem{\textbullet\ \textbf{XFaaS: Cross-platform Orchestration of FaaS Workflows on Hybrid Clouds}, IEEE/ACM CCGrid' 23, May 2023}
+  \resumeItem{\textbullet\ \textbf{Comparing the Orchestration of Quantum Applications on Hybrid Clouds}, IEEE/ACM CCGrid' 23, May 2023}
+  \resumeItem{\textbullet\ \textbf{GoCoronaGo: privacy respecting contact tracing for COVID-19 management}, Springer Nature, Oct 2020}
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Distributed MapReduce Framework}{Apr 2025}
+      {C++, gRPC}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Developed complete C++ MapReduce system with gRPC master-worker architecture processing multi-GB inputs}
+          \resumeItem{\textbullet\ Manages dynamic partitioning, handles worker failures, ensures key-sorted outputs—achieving full correctness}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Heterogeneity-Aware Routing for LLM Inference}{Apr 2025} 
+      {Python, PyTorch}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Enhanced HERMES LLM inference simulator for heterogeneous clusters (A100/H100 GPUs, CPUs, ASICs)}
+          \resumeItem{\textbullet\ Implemented ILP-based scheduling and heuristics, reducing tail latency by ~30\%}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {FX-Graph Profiling \& Distributed GPT Training}{Mar 2025} 
+      {Python, PyTorch, TensorBoard}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Enhanced PyTorch FX graphs with instrumentation to track tensor shapes, latencies, and performance bottlenecks}
+          \resumeItem{\textbullet\ Configured multi-GPU training of GPT models on dual H100s using various parallelism strategies}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Dynamic Early-Exit Integration for AutoDNN Serving}{Dec 2024} 
+      {C++, Python}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Enhanced MetaServe DNN framework with early-exit capabilities through LayerSelect controls}
+          \resumeItem{\textbullet\ Reduced latency and improved throughput for bursty workloads while maintaining compatibility}
+      \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
