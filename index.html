@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tuhin Khare</title>
+    <meta
+      name="description"
+      content="Tuhin Khare — Graduate student in Computer Science at Georgia Tech focusing on systems for AI, distributed systems, and cloud computing."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Tuhin Khare</h1>
+        <p class="tagline">
+          Graduate student in Computer Science at Georgia Tech specializing in systems for AI,
+          distributed systems, and cloud computing.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:tkhare7@gatech.edu">Email</a>
+          <a href="https://www.linkedin.com/in/tuhin-khare/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/whiz-Tuhin" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+        </div>
+        <nav class="local-nav">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#teaching">Teaching</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+          I build production systems that balance performance, reliability, and research rigor. My recent
+          work spans inference orchestration, serverless platforms, and quantum-classical workloads.
+          I am currently pursuing an M.S. in Computer Science at Georgia Tech, advised by Prof. Alexey
+          Tumanov in the Systems for AI Lab.
+        </p>
+        <p class="details">
+          <span>Research interests:</span> AI systems, distributed systems, cloud infrastructure, and
+          performance engineering.
+        </p>
+      </section>
+
+      <section id="experience" class="section">
+        <h2>Experience</h2>
+        <article class="item">
+          <header>
+            <h3>AWS DynamoDB — Software Development Engineering Intern</h3>
+            <span class="meta">May 2025 – Present</span>
+          </header>
+          <p>
+            Built leadership failover tooling for JournalDB, automating secondary promotion and quorum
+            reconfiguration to achieve sub-second recovery with one-command rollouts.
+          </p>
+        </article>
+        <article class="item">
+          <header>
+            <h3>Systems for AI Lab, Georgia Tech — Graduate Student Researcher</h3>
+            <span class="meta">Aug 2024 – Present</span>
+          </header>
+          <p>
+            Developing C++ abstractions for DNN inference that decouple deployment from policy logic,
+            delivering 12% accuracy gains, 99.99% SLO attainment, and &sim;20K queries per second.
+          </p>
+        </article>
+        <article class="item">
+          <header>
+            <h3>Distributed Systems Lab, IISc — Senior Research Engineer</h3>
+            <span class="meta">Aug 2020 – May 2024</span>
+          </header>
+          <p>
+            Designed XFaaS orchestration across AWS, Azure, and GCP with 75% latency reduction and 57%
+            cost savings; enhanced IBM Quantum workflows and published six papers in top venues.
+          </p>
+        </article>
+      </section>
+
+      <section id="publications" class="section">
+        <h2>Selected Publications</h2>
+        <ul class="list">
+          <li>
+            <strong>QuArch: A Benchmark for Evaluating LLM Reasoning in Computer Architecture.</strong>
+            ICLR 2026 (submitted).
+          </li>
+          <li>
+            <strong>Triparts: Scalable Streaming Graph Partitioning to Enhance Community Structure.</strong>
+            VLDB 2025 (accepted).
+          </li>
+          <li>
+            <strong>Choreography and Profiling of Quantum-Classical FaaS Workflows on Hybrid Clouds.</strong>
+            IEEE/ACM CCGrid 2025.
+          </li>
+          <li>
+            <strong>XFaaS: Cross-platform Orchestration of FaaS Workflows on Hybrid Clouds.</strong>
+            IEEE/ACM CCGrid 2023.
+          </li>
+        </ul>
+        <p class="note">
+          Full list available on <a href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a>.
+        </p>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Recent Projects</h2>
+        <article class="item">
+          <header>
+            <h3>Distributed MapReduce Framework</h3>
+            <span class="meta">C++, gRPC — 2025</span>
+          </header>
+          <p>
+            End-to-end C++ MapReduce system with master-worker orchestration, dynamic partitioning, and
+            failure recovery handling multi-GB workloads.
+          </p>
+        </article>
+        <article class="item">
+          <header>
+            <h3>Heterogeneity-Aware Routing for LLM Inference</h3>
+            <span class="meta">Python, PyTorch — 2025</span>
+          </header>
+          <p>
+            Instrumented heterogeneous cluster simulator with ILP-based scheduling heuristics, cutting
+            tail latency by 30% across mixed GPU fleets.
+          </p>
+        </article>
+        <article class="item">
+          <header>
+            <h3>Dynamic Early-Exit Integration for AutoDNN Serving</h3>
+            <span class="meta">C++, Python — 2024</span>
+          </header>
+          <p>
+            Augmented MetaServe with layer-select early exits, reducing latency while preserving
+            compatibility for bursty inference workloads.
+          </p>
+        </article>
+      </section>
+
+      <section id="teaching" class="section">
+        <h2>Teaching &amp; Mentorship</h2>
+        <article class="item">
+          <header>
+            <h3>ECE 4150 — Cloud Computing</h3>
+            <span class="meta">Head Teaching Assistant, Spring 2025</span>
+          </header>
+          <p>
+            Led course delivery and assignment design on AWS services, guiding students through
+            cloud-native development and deployment practices.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Tuhin Khare. Built with a minimalist academic profile layout.</p>
+    </footer>
+
+    <script>
+      document.querySelector('#year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
