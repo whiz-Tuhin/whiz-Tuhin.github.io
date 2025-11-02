@@ -2,168 +2,241 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tuhin Khare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Tuhin Khare — Graduate student in Computer Science at Georgia Tech focusing on systems for AI, distributed systems, and cloud computing."
+      content="Tuhin Khare — Graduate student in Computer Science at Georgia Tech focusing on systems for AI, distributed systems, and dependable cloud infrastructure."
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="hero">
-      <div class="hero-content">
-        <h1>Tuhin Khare</h1>
-        <p class="tagline">
-          Graduate student in Computer Science at Georgia Tech specializing in systems for AI,
-          distributed systems, and cloud computing.
-        </p>
-        <div class="contact-links">
-          <a href="mailto:tkhare7@gatech.edu">Email</a>
-          <a href="https://www.linkedin.com/in/tuhin-khare/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com/whiz-Tuhin" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
-        </div>
-        <nav class="local-nav">
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#publications">Publications</a>
-          <a href="#projects">Projects</a>
-          <a href="#teaching">Teaching</a>
-        </nav>
-      </div>
-    </header>
+    <table class="main-wrapper">
+      <tbody>
+        <tr>
+          <td>
+            <table class="section-table">
+              <tbody>
+                <tr>
+                  <td class="intro-text">
+                    <p class="name" style="text-align: center;">Tuhin Khare</p>
+                    <p class="tagline">
+                      Graduate student in Computer Science at Georgia Tech specializing in systems for AI,
+                      distributed systems, and cloud infrastructure.
+                    </p>
+                    <p>
+                      I'm a graduate student in Computer Science at
+                      <a href="https://www.gatech.edu/" target="_blank" rel="noreferrer">Georgia Tech</a>, advised by
+                      <a href="https://faculty.cc.gatech.edu/~atumanov/" target="_blank" rel="noreferrer">Prof. Alexey Tumanov</a>
+                      in the Systems for AI Lab. I build production systems that balance performance, reliability, and
+                      research rigor across inference, serverless, and hybrid cloud workloads.
+                    </p>
+                    <p>
+                      Most recently I interned with <a href="https://aws.amazon.com/dynamodb/" target="_blank" rel="noreferrer">AWS DynamoDB</a>,
+                      where I designed leadership failover tooling for JournalDB to automate secondary promotion and quorum reconfiguration for sub-second recovery.
+                      Earlier, I led cross-cloud orchestration efforts at the
+                      <a href="https://dsl.cds.iisc.ac.in/" target="_blank" rel="noreferrer">Distributed Systems Lab, IISc</a>,
+                      shipping XFaaS and hybrid quantum-classical workflows adopted by industry partners and featured in top venues.
+                    </p>
+                    <p style="text-align: center;">
+                      <a href="mailto:tkhare7@gatech.edu">Email</a> &nbsp;/&nbsp;
+                      <a href="https://drive.google.com/file/d/1FnJkYi_3CBUhFSwILlA7mZSgukZTfLLO/view?usp=sharing" target="_blank" rel="noreferrer">CV</a> &nbsp;/&nbsp;
+                      <a href="https://www.linkedin.com/in/tuhin-khare/" target="_blank" rel="noreferrer">LinkedIn</a> &nbsp;/&nbsp;
+                      <a href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Scholar</a> &nbsp;/&nbsp;
+                      <a href="https://github.com/whiz-Tuhin" target="_blank" rel="noreferrer">Github</a>
+                    </p>
+                  </td>
+                  <td class="intro-photo">
+                    <img src="https://avatars.githubusercontent.com/u/43981969?v=4" alt="Tuhin Khare portrait" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-    <main>
-      <section id="about" class="section">
-        <h2>About</h2>
-        <p>
-          I build production systems that balance performance, reliability, and research rigor. My recent
-          work spans inference orchestration, serverless platforms, and quantum-classical workloads.
-          I am currently pursuing an M.S. in Computer Science at Georgia Tech, advised by Prof. Alexey
-          Tumanov in the Systems for AI Lab.
-        </p>
-        <p class="details">
-          <span>Research interests:</span> AI systems, distributed systems, cloud infrastructure, and
-          performance engineering.
-        </p>
-      </section>
+            <table class="section-table">
+              <tbody>
+                <tr>
+                  <td>
+                    <h2>Research</h2>
+                    <p class="section-summary">
+                      I focus on systems for AI, with an emphasis on programmable inference serving, distributed scheduling, and cloud-native control planes.
+                      My work draws from compiler design, large-scale observability, and hardware-aware optimization to build dependable platforms for emerging AI workloads.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-      <section id="experience" class="section">
-        <h2>Experience</h2>
-        <article class="item">
-          <header>
-            <h3>AWS DynamoDB — Software Development Engineering Intern</h3>
-            <span class="meta">May 2025 – Present</span>
-          </header>
-          <p>
-            Built leadership failover tooling for JournalDB, automating secondary promotion and quorum
-            reconfiguration to achieve sub-second recovery with one-command rollouts.
-          </p>
-        </article>
-        <article class="item">
-          <header>
-            <h3>Systems for AI Lab, Georgia Tech — Graduate Student Researcher</h3>
-            <span class="meta">Aug 2024 – Present</span>
-          </header>
-          <p>
-            Developing C++ abstractions for DNN inference that decouple deployment from policy logic,
-            delivering 12% accuracy gains, 99.99% SLO attainment, and &sim;20K queries per second.
-          </p>
-        </article>
-        <article class="item">
-          <header>
-            <h3>Distributed Systems Lab, IISc — Senior Research Engineer</h3>
-            <span class="meta">Aug 2020 – May 2024</span>
-          </header>
-          <p>
-            Designed XFaaS orchestration across AWS, Azure, and GCP with 75% latency reduction and 57%
-            cost savings; enhanced IBM Quantum workflows and published six papers in top venues.
-          </p>
-        </article>
-      </section>
+            <table class="section-table spaced">
+              <tbody>
+                <tr>
+                  <td colspan="2">
+                    <h2>Selected Work</h2>
+                  </td>
+                </tr>
+                <tr class="entry highlight">
+                  <td class="entry-media">
+                    <div class="placeholder">AWS</div>
+                  </td>
+                  <td class="entry-content">
+                    <a href="https://aws.amazon.com/dynamodb/" target="_blank" rel="noreferrer">
+                      <span class="papertitle">Leadership failover automation for JournalDB</span>
+                    </a>
+                    <br />
+                    <span class="meta">AWS DynamoDB &mdash; Software Development Engineering Intern, May&nbsp;2025&nbsp;&ndash;&nbsp;Aug&nbsp;2025</span>
+                    <p>
+                      Built one-command tooling to trigger journal leader promotion, quorum reconfiguration, and health validation across shards.
+                      Reduced recovery SLOs to sub-second failover while preserving change control across multi-region fleets.
+                    </p>
+                  </td>
+                </tr>
+                <tr class="entry">
+                  <td class="entry-media">
+                    <div class="placeholder">SAI</div>
+                  </td>
+                  <td class="entry-content">
+                    <a href="https://sail.cc.gatech.edu/" target="_blank" rel="noreferrer">
+                      <span class="papertitle">Policy-decoupled inference serving abstractions</span>
+                    </a>
+                    <br />
+                    <span class="meta">Systems for AI Lab, Georgia Tech &mdash; Graduate Researcher, Aug&nbsp;2024&nbsp;&ndash;&nbsp;Present</span>
+                    <p>
+                      Prototyped C++ scheduling primitives that separate deployment topology from inference policy, enabling 12% accuracy gains and 99.99% SLO attainment over 20K QPS heterogeneous clusters.
+                    </p>
+                  </td>
+                </tr>
+                <tr class="entry">
+                  <td class="entry-media">
+                    <div class="placeholder">IISc</div>
+                  </td>
+                  <td class="entry-content">
+                    <a href="https://dsl.cds.iisc.ac.in/" target="_blank" rel="noreferrer">
+                      <span class="papertitle">XFaaS: cross-cloud orchestration for hybrid workloads</span>
+                    </a>
+                    <br />
+                    <span class="meta">Distributed Systems Lab, IISc &mdash; Senior Research Engineer, Aug&nbsp;2020&nbsp;&ndash;&nbsp;May&nbsp;2024</span>
+                    <p>
+                      Delivered multi-cloud FaaS orchestration with adaptive placement and telemetry-informed routing, cutting latency by 75% and compute spend by 57% while integrating quantum-classical workflows.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-      <section id="publications" class="section">
-        <h2>Selected Publications</h2>
-        <ul class="list">
-          <li>
-            <strong>QuArch: A Benchmark for Evaluating LLM Reasoning in Computer Architecture.</strong>
-            ICLR 2026 (submitted).
-          </li>
-          <li>
-            <strong>Triparts: Scalable Streaming Graph Partitioning to Enhance Community Structure.</strong>
-            VLDB 2025 (accepted).
-          </li>
-          <li>
-            <strong>Choreography and Profiling of Quantum-Classical FaaS Workflows on Hybrid Clouds.</strong>
-            IEEE/ACM CCGrid 2025.
-          </li>
-          <li>
-            <strong>XFaaS: Cross-platform Orchestration of FaaS Workflows on Hybrid Clouds.</strong>
-            IEEE/ACM CCGrid 2023.
-          </li>
-        </ul>
-        <p class="note">
-          Full list available on <a href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a>.
-        </p>
-      </section>
+            <table class="section-table spaced">
+              <tbody>
+                <tr>
+                  <td colspan="2">
+                    <h2>Projects</h2>
+                  </td>
+                </tr>
+                <tr class="entry">
+                  <td class="entry-media">
+                    <div class="placeholder">MR</div>
+                  </td>
+                  <td class="entry-content">
+                    <span class="papertitle">Distributed MapReduce framework</span>
+                    <br />
+                    <span class="meta">C++, gRPC &mdash; 2025</span>
+                    <p>
+                      Orchestrated master-worker topology with dynamic partitioning, speculative retries, and fault-aware checkpointing to handle multi-GB workloads with predictable latency.
+                    </p>
+                  </td>
+                </tr>
+                <tr class="entry">
+                  <td class="entry-media">
+                    <div class="placeholder">LLM</div>
+                  </td>
+                  <td class="entry-content">
+                    <span class="papertitle">Heterogeneity-aware routing for LLM inference</span>
+                    <br />
+                    <span class="meta">Python, PyTorch &mdash; 2025</span>
+                    <p>
+                      Built a simulator with ILP-guided scheduling and telemetry feedback loops that reduce P99 latency by 30% across mixed GPU fleets.
+                    </p>
+                  </td>
+                </tr>
+                <tr class="entry">
+                  <td class="entry-media">
+                    <div class="placeholder">Auto</div>
+                  </td>
+                  <td class="entry-content">
+                    <span class="papertitle">Dynamic early-exit integration for AutoDNN Serving</span>
+                    <br />
+                    <span class="meta">C++, Python &mdash; 2024</span>
+                    <p>
+                      Introduced adaptive branching policies and compatibility shims that maintain SLA compliance under bursty demand while trimming inference cost.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-      <section id="projects" class="section">
-        <h2>Recent Projects</h2>
-        <article class="item">
-          <header>
-            <h3>Distributed MapReduce Framework</h3>
-            <span class="meta">C++, gRPC — 2025</span>
-          </header>
-          <p>
-            End-to-end C++ MapReduce system with master-worker orchestration, dynamic partitioning, and
-            failure recovery handling multi-GB workloads.
-          </p>
-        </article>
-        <article class="item">
-          <header>
-            <h3>Heterogeneity-Aware Routing for LLM Inference</h3>
-            <span class="meta">Python, PyTorch — 2025</span>
-          </header>
-          <p>
-            Instrumented heterogeneous cluster simulator with ILP-based scheduling heuristics, cutting
-            tail latency by 30% across mixed GPU fleets.
-          </p>
-        </article>
-        <article class="item">
-          <header>
-            <h3>Dynamic Early-Exit Integration for AutoDNN Serving</h3>
-            <span class="meta">C++, Python — 2024</span>
-          </header>
-          <p>
-            Augmented MetaServe with layer-select early exits, reducing latency while preserving
-            compatibility for bursty inference workloads.
-          </p>
-        </article>
-      </section>
+            <table class="section-table spaced">
+              <tbody>
+                <tr>
+                  <td class="label-cell">
+                    <div class="colored-box" style="background-color: #fcb97d;">
+                      <h2>Selected Publications</h2>
+                    </div>
+                  </td>
+                  <td class="entry-content">
+                    <span class="papertitle">QuArch: A Benchmark for Evaluating LLM Reasoning in Computer Architecture.</span>
+                    <em>ICLR</em>, 2026 (submitted).<br />
+                    <span class="papertitle">Triparts: Scalable Streaming Graph Partitioning to Enhance Community Structure.</span>
+                    <em>VLDB</em>, 2025 (accepted).<br />
+                    <span class="papertitle">Choreography and Profiling of Quantum-Classical FaaS Workflows on Hybrid Clouds.</span>
+                    <em>IEEE/ACM CCGrid</em>, 2025.<br />
+                    <span class="papertitle">XFaaS: Cross-platform Orchestration of FaaS Workflows on Hybrid Clouds.</span>
+                    <em>IEEE/ACM CCGrid</em>, 2023.
+                    <p class="meta">
+                      Full list available on
+                      <a href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a>.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="label-cell">
+                    <div class="colored-box" style="background-color: #aaba9e;">
+                      <h2>Teaching</h2>
+                    </div>
+                  </td>
+                  <td class="entry-content">
+                    Head Teaching Assistant, <em>ECE 4150 &mdash; Cloud Computing</em>, Georgia Tech (Spring 2025).
+                    Led course delivery, AWS labs, and mentor program for cloud-native capstones.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="label-cell">
+                    <div class="colored-box" style="background-color: #c6b89e;">
+                      <h2>Service</h2>
+                    </div>
+                  </td>
+                  <td class="entry-content">
+                    Reviewer for <em>VLDB 2025</em>, <em>SoCC 2024</em>; mentor for <em>Women in Computing @ GT</em> systems reading group; organizer for Systems for AI Lab hack nights.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-      <section id="teaching" class="section">
-        <h2>Teaching &amp; Mentorship</h2>
-        <article class="item">
-          <header>
-            <h3>ECE 4150 — Cloud Computing</h3>
-            <span class="meta">Head Teaching Assistant, Spring 2025</span>
-          </header>
-          <p>
-            Led course delivery and assignment design on AWS services, guiding students through
-            cloud-native development and deployment practices.
-          </p>
-        </article>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <p>&copy; <span id="year"></span> Tuhin Khare. Built with a minimalist academic profile layout.</p>
-    </footer>
-
-    <script>
-      document.querySelector('#year').textContent = new Date().getFullYear();
-    </script>
+            <table class="section-table">
+              <tbody>
+                <tr>
+                  <td>
+                    <p class="footer">
+                      Layout inspired by <a href="https://jonbarron.info/" target="_blank" rel="noreferrer">Jon Barron</a>.
+                      Source template available on
+                      <a href="https://github.com/jonbarron/jonbarron.github.io" target="_blank" rel="noreferrer">GitHub</a>
+                      and the <a href="https://github.com/leonidk/new_website" target="_blank" rel="noreferrer">Leonid Keselman fork</a>.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
 
