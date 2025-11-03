@@ -17,6 +17,7 @@
     url="https://aws.amazon.com/dynamodb/"
     dates="May 2025 – Aug 2025"
     location="Seattle, WA"
+    logo="/images/aws.svg"
   >
     <li>
       Built one-command tooling to orchestrate JournalDB leadership failover,
@@ -35,6 +36,7 @@
     url="https://faculty.cc.gatech.edu/~atumanov/"
     dates="Aug 2024 – Present"
     location="Atlanta, GA"
+    logo="/images/georgiatech.svg"
   >
     <li>
       Designing policy-decoupled C++ abstractions for programmable inference
@@ -52,6 +54,7 @@
     url="https://dsl.cds.iisc.ac.in/"
     dates="Aug 2020 – May 2024"
     location="Bengaluru, India"
+    logo="/images/iisc.svg"
   >
     <li>
       Led XFaaS, a cross-cloud orchestration platform that delivered 75% latency
@@ -73,22 +76,32 @@
 <section class="layout-md py-12">
   <h2 class="heading2">Education</h2>
 
-  <div class="mb-4">
-    <div class="flex justify-between items-end">
-      <h3 class="text-black text-lg">Georgia Institute of Technology</h3>
-      <div class="text-neutral-500 mb-0.5">2024 — Present</div>
+  <div class="mb-6">
+    <div class="flex items-start gap-3 mb-2">
+      <img src="/images/georgiatech.svg" alt="Georgia Tech logo" class="w-8 h-8 object-contain flex-shrink-0 mt-1" />
+      <div class="flex-1">
+        <div class="flex justify-between items-end">
+          <h3 class="text-black text-lg">Georgia Institute of Technology</h3>
+          <div class="text-neutral-500 mb-0.5">2024 — Present</div>
+        </div>
+        <p class="byline">M.S. in Computer Science</p>
+        <p class="mt-2">Specialization: Systems for AI</p>
+        <p>Advisor: Prof. Alexey Tumanov</p>
+      </div>
     </div>
-    <p class="byline">M.S. in Computer Science</p>
-    <p class="mt-2">Specialization: Systems for AI</p>
-    <p>Advisor: Prof. Alexey Tumanov</p>
   </div>
 
-  <div class="mb-4">
-    <div class="flex justify-between items-end">
-      <h3 class="text-black text-lg">Manipal Institute of Technology</h3>
-      <div class="text-neutral-500 mb-0.5">2016 — 2020</div>
+  <div class="mb-6">
+    <div class="flex items-start gap-3 mb-2">
+      <img src="/images/manipal.pdf" alt="Manipal logo" class="w-8 h-8 object-contain flex-shrink-0 mt-1" />
+      <div class="flex-1">
+        <div class="flex justify-between items-end">
+          <h3 class="text-black text-lg">Manipal Institute of Technology</h3>
+          <div class="text-neutral-500 mb-0.5">2016 — 2020</div>
+        </div>
+        <p class="byline">B.Tech. in Computer Science</p>
+      </div>
     </div>
-    <p class="byline">B.Tech. in Computer Science</p>
   </div>
 
   <h4 class="font-medium mt-4 mb-1">Teaching:</h4>

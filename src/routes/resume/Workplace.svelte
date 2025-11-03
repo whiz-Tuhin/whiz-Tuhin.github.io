@@ -6,6 +6,7 @@
   export let url: string;
   export let dates: string;
   export let location: string;
+  export let logo: string | undefined = undefined;
   export let hiddenMode: "click" | "always" | undefined = undefined;
 
   let hidden = hiddenMode === "click";
@@ -18,21 +19,28 @@
     on:click={() => (hidden = false)}
     on:keypress={() => {}}
   >
-    <h3 class="text-black text-lg leading-tight mb-1">
-      {title} at <a class="link" href={url}>{company}</a>
-    </h3>
-    <p class="font-light mb-2">
-      <span class="whitespace-nowrap">{dates}</span>
-      <span class="px-0.5 text-neutral-500">•</span>
-      <span class="whitespace-nowrap">{location}</span>
-    </p>
-    {#if !hidden}
-      <ul
-        class="list-disc pl-7 marker:text-neutral-400 space-y-1"
-        in:fade|local
-      >
-        <slot />
-      </ul>
-    {/if}
+    <div class="flex items-start gap-3">
+      {#if logo}
+        <img src={logo} alt="{company} logo" class="w-8 h-8 object-contain flex-shrink-0 mt-1" />
+      {/if}
+      <div class="flex-1">
+        <h3 class="text-black text-lg leading-tight mb-1">
+          {title} at <a class="link" href={url}>{company}</a>
+        </h3>
+        <p class="font-light mb-2">
+          <span class="whitespace-nowrap">{dates}</span>
+          <span class="px-0.5 text-neutral-500">•</span>
+          <span class="whitespace-nowrap">{location}</span>
+        </p>
+        {#if !hidden}
+          <ul
+            class="list-disc pl-7 marker:text-neutral-400 space-y-1"
+            in:fade|local
+          >
+            <slot />
+          </ul>
+        {/if}
+      </div>
+    </div>
   </div>
 {/if}
