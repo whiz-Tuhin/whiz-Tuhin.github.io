@@ -830,6 +830,9 @@ video {
 .pt-14 {
   padding-top: 3.5rem;
 }
+.text-center {
+  text-align: center;
+}
 .font-serif {
   font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
@@ -901,6 +904,10 @@ video {
 .text-neutral-500 {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+.text-neutral-600 {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -1065,4 +1072,4 @@ nav.svelte-bgdsr9.svelte-bgdsr9.svelte-bgdsr9{display:flex;align-items:flex-star
 }.row.svelte-5hkyj9 span.svelte-5hkyj9.svelte-5hkyj9{width:5rem;flex-shrink:0;--tw-text-opacity:1;color:rgb(115 115 115 / var(--tw-text-opacity))
 }.row.svelte-5hkyj9 hr.svelte-5hkyj9.svelte-5hkyj9{margin-top:0.125rem;width:100%;border-style:dotted;--tw-border-opacity:1;border-color:rgb(212 212 212 / var(--tw-border-opacity))
 }.row.svelte-5hkyj9 a.svelte-5hkyj9.svelte-5hkyj9{flex-shrink:0
-}
+}.construction-banner.svelte-18b17ci{background-color:#fef9e7;border-bottom:1px solid #f4e5c2}
