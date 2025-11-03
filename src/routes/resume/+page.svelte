@@ -105,7 +105,7 @@
       <div class="flex-1">
         <div class="flex justify-between items-end">
           <h3 class="text-black text-lg">Manipal Institute of Technology</h3>
-          <div class="text-neutral-500 mb-0.5">2016 — 2020</div>
+          <div class="text-neutral-500 mb-0.5">2014 — 2018</div>
         </div>
         <p class="byline">B.Tech. in Computer Science</p>
       </div>
