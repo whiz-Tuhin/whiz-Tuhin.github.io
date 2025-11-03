@@ -41,20 +41,29 @@
   <div class="space-y-5">
     <p>
       I'm a graduate student in Computer Science at
-      <a class="link" href="https://www.gatech.edu/">Georgia Tech</a>, advised by
-      <a class="link" href="https://faculty.cc.gatech.edu/~atumanov/">Prof. Alexey Tumanov</a>
+      <a class="link" href="https://www.gatech.edu/">Georgia Tech</a>, advised
+      by
+      <a class="link" href="https://faculty.cc.gatech.edu/~atumanov/"
+        >Prof. Alexey Tumanov</a
+      >
       in the Systems for AI Lab.
     </p>
 
     <p>
-      I build production systems that balance <em>performance</em>, <em>reliability</em>, and
-      research rigor across inference, serverless, and hybrid cloud workloads.
+      I build production systems that balance <em>performance</em>,
+      <em>reliability</em>, and research rigor across inference, serverless, and
+      hybrid cloud workloads.
     </p>
 
     <p>
-      Most recently I interned with <a class="link" href="https://aws.amazon.com/dynamodb/">AWS DynamoDB</a>,
-      where I designed leadership failover tooling for JournalDB. Earlier, I led cross-cloud orchestration
-      efforts at the <a class="link" href="https://dsl.cds.iisc.ac.in/">Distributed Systems Lab, IISc</a>.
+      Most recently I interned with <a
+        class="link"
+        href="https://aws.amazon.com/dynamodb/">AWS DynamoDB</a
+      >, where I designed leadership failover tooling for JournalDB. Earlier, I
+      led cross-cloud orchestration efforts at the
+      <a class="link" href="https://dsl.cds.iisc.ac.in/"
+        >Distributed Systems Lab, IISc</a
+      >.
     </p>
   </div>
 
@@ -79,35 +88,47 @@
 
   <div class="space-y-5">
     <p>
-      My research focuses on <em>systems for AI</em>, with an emphasis on programmable inference serving,
-      distributed scheduling, and cloud-native control planes. I draw from compiler design, large-scale observability,
-      and hardware-aware optimization to build dependable platforms for emerging AI workloads.
+      My research focuses on <em>systems for AI</em>, with an emphasis on
+      programmable inference serving, distributed scheduling, and cloud-native
+      control planes. I draw from compiler design, large-scale observability,
+      and hardware-aware optimization to build dependable platforms for emerging
+      AI workloads.
     </p>
 
     <p>
-      At the Systems for AI Lab, I'm designing policy-decoupled C++ abstractions for programmable inference serving
-      that separate deployment topology from scheduling logic—delivering 12% accuracy gains, 99.99% SLO attainment,
-      and 20K QPS throughput on heterogeneous clusters.
+      At the Systems for AI Lab, I'm designing policy-decoupled C++ abstractions
+      for programmable inference serving that separate deployment topology from
+      scheduling logic—delivering 12% accuracy gains, 99.99% SLO attainment, and
+      20K QPS throughput on heterogeneous clusters.
     </p>
 
     <p>
-      I previously shipped <em>XFaaS</em>, a cross-cloud orchestration platform that delivered 75% latency
-      reductions and 57% cost savings through adaptive placement with telemetry-informed routing, collaborating
-      with industry partners to operationalize hybrid quantum-classical workflows.
+      I previously shipped <em>XFaaS</em>, a cross-cloud orchestration platform
+      that delivered 75% latency reductions and 57% cost savings through
+      adaptive placement with telemetry-informed routing, collaborating with
+      industry partners to operationalize hybrid quantum-classical workflows.
     </p>
   </div>
 
   <div class="space-y-5">
     <p>
-      I'm also the Head TA for ECE 4150 — Cloud Computing at Georgia Tech (Spring 2025), leading course delivery,
-      AWS labs, and mentoring cloud-native capstones.
+      I'm also the Head TA for ECE 4150 — Cloud Computing at Georgia Tech
+      (Spring 2025), leading course delivery, AWS labs, and mentoring
+      cloud-native capstones.
     </p>
 
     <p>
-      You can find me on <a class="link" href="https://www.linkedin.com/in/tuhin-khare/">LinkedIn</a>,
+      You can find me on <a
+        class="link"
+        href="https://www.linkedin.com/in/tuhin-khare/">LinkedIn</a
+      >,
       <a class="link" href="https://github.com/whiz-Tuhin">GitHub</a>, or
-      <a class="link" href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&hl=en">Google Scholar</a>.
-      Feel free to reach out at <a class="link" href="mailto:tkhare7@gatech.edu">tkhare7@gatech.edu</a>.
+      <a
+        class="link"
+        href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&hl=en"
+        >Google Scholar</a
+      >. Feel free to reach out at
+      <a class="link" href="mailto:tkhare7@gatech.edu">tkhare7@gatech.edu</a>.
     </p>
   </div>
 

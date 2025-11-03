@@ -50,9 +50,11 @@
   <h2 class="heading2">Research & Projects</h2>
 
   <p class="text-lg mb-4">
-    My work spans <em class="font-serif text-[110%] leading-[100%]">systems for AI</em>,
-    distributed systems, and cloud infrastructure. I focus on building production-grade
-    systems that balance performance, reliability, and research rigor.
+    My work spans <em class="font-serif text-[110%] leading-[100%]"
+      >systems for AI</em
+    >, distributed systems, and cloud infrastructure. I focus on building
+    production-grade systems that balance performance, reliability, and research
+    rigor.
   </p>
 
   <p class="text-lg mb-4">
@@ -62,7 +64,9 @@
 
   <p class="text-lg">
     If you'd like to discuss any of these projects,
-    <a class="link" href="mailto:tkhare7@gatech.edu?subject=Projects">reach out</a>!
+    <a class="link" href="mailto:tkhare7@gatech.edu?subject=Projects"
+      >reach out</a
+    >!
   </p>
 </section>
 
@@ -86,4 +90,3 @@
     </div>
   </section>
 {/each}
-

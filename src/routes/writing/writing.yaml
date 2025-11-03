@@ -1,30 +1,36 @@
 papers:
-  - title: "QuArch: A Benchmark for Evaluating LLM Reasoning in Computer Architecture"
+  - title:
+      "QuArch: A Benchmark for Evaluating LLM Reasoning in Computer Architecture"
     date: 2026-01-01
     summary: >
-      Novel benchmark evaluating large language models' capabilities in computer architecture reasoning tasks.
-      Submitted to ICLR 2026.
+      Novel benchmark evaluating large language models' capabilities in computer
+      architecture reasoning tasks. Submitted to ICLR 2026.
     link: "https://scholar.google.com/citations?user=gOqbVdUAAAAJ&hl=en"
 
-  - title: "Triparts: Scalable Streaming Graph Partitioning to Enhance Community Structure"
+  - title:
+      "Triparts: Scalable Streaming Graph Partitioning to Enhance Community
+      Structure"
     date: 2025-01-01
     summary: >
-      Scalable streaming algorithm for graph partitioning that preserves community structure.
-      Accepted to VLDB 2025.
+      Scalable streaming algorithm for graph partitioning that preserves
+      community structure. Accepted to VLDB 2025.
     link: "https://scholar.google.com/citations?user=gOqbVdUAAAAJ&hl=en"
 
-  - title: "Choreography and Profiling of Quantum-Classical FaaS Workflows on Hybrid Clouds"
+  - title:
+      "Choreography and Profiling of Quantum-Classical FaaS Workflows on Hybrid
+      Clouds"
     date: 2025-01-01
     summary: >
-      Framework for orchestrating and profiling hybrid quantum-classical serverless workflows across
-      heterogeneous cloud platforms.
-      Published in IEEE/ACM CCGrid 2025.
+      Framework for orchestrating and profiling hybrid quantum-classical
+      serverless workflows across heterogeneous cloud platforms. Published in
+      IEEE/ACM CCGrid 2025.
     link: "https://ieeexplore.ieee.org"
 
-  - title: "XFaaS: Cross-platform Orchestration of FaaS Workflows on Hybrid Clouds"
+  - title:
+      "XFaaS: Cross-platform Orchestration of FaaS Workflows on Hybrid Clouds"
     date: 2023-05-01
     summary: >
-      Cross-cloud orchestration platform for serverless workflows achieving 75% latency reduction
-      and 57% cost savings through adaptive placement and telemetry-informed routing.
-      Published in IEEE/ACM CCGrid 2023.
+      Cross-cloud orchestration platform for serverless workflows achieving 75%
+      latency reduction and 57% cost savings through adaptive placement and
+      telemetry-informed routing. Published in IEEE/ACM CCGrid 2023.
     link: "https://ieeexplore.ieee.org/document/10171602"

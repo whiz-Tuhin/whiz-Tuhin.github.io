@@ -5,11 +5,13 @@ This site is built with SvelteKit and deployed to GitHub Pages.
 ## Local Development
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
 
 2. Run the development server:
+
    ```bash
    npm run dev
    ```
@@ -19,6 +21,7 @@ This site is built with SvelteKit and deployed to GitHub Pages.
 ## Building for Production
 
 Build the static site:
+
 ```bash
 npm run build
 ```
@@ -27,9 +30,11 @@ The built files will be in the `build/` directory.
 
 ## Deployment to GitHub Pages
 
-The site automatically deploys to GitHub Pages when you push to the `master` branch.
+The site automatically deploys to GitHub Pages when you push to the `master`
+branch.
 
 The GitHub Actions workflow (`.github/workflows/ci.yml`) will:
+
 1. Install dependencies
 2. Run type checking
 3. Run linting
@@ -45,7 +50,9 @@ If you need to deploy manually:
 
 ## Repository Settings
 
-Make sure GitHub Pages is configured to serve from the `gh-pages` branch in your repository settings:
+Make sure GitHub Pages is configured to serve from the `gh-pages` branch in your
+repository settings:
+
 - Go to Settings → Pages
 - Set Source to "Deploy from a branch"
 - Select the `gh-pages` branch and `/ (root)` folder

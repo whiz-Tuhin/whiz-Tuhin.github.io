@@ -19,11 +19,13 @@
     location="Seattle, WA"
   >
     <li>
-      Built one-command tooling to orchestrate JournalDB leadership failover, automating secondary promotion,
-      quorum reconfiguration, and health validation across shards.
+      Built one-command tooling to orchestrate JournalDB leadership failover,
+      automating secondary promotion, quorum reconfiguration, and health
+      validation across shards.
     </li>
     <li>
-      Achieved sub-second recovery while preserving change-control guardrails across multi-region fleets.
+      Achieved sub-second recovery while preserving change-control guardrails
+      across multi-region fleets.
     </li>
   </Workplace>
 
@@ -35,12 +37,12 @@
     location="Atlanta, GA"
   >
     <li>
-      Designing policy-decoupled C++ abstractions for programmable inference serving that separate deployment
-      topology from scheduling logic.
+      Designing policy-decoupled C++ abstractions for programmable inference
+      serving that separate deployment topology from scheduling logic.
     </li>
     <li>
-      The resulting runtime delivers 12% accuracy gains, 99.99% SLO attainment, and 20K QPS throughput on
-      heterogeneous clusters.
+      The resulting runtime delivers 12% accuracy gains, 99.99% SLO attainment,
+      and 20K QPS throughput on heterogeneous clusters.
     </li>
   </Workplace>
 
@@ -52,18 +54,20 @@
     location="Bengaluru, India"
   >
     <li>
-      Led XFaaS, a cross-cloud orchestration platform that delivered 75% latency reductions and 57% cost savings
-      by pairing adaptive placement with telemetry-informed routing.
+      Led XFaaS, a cross-cloud orchestration platform that delivered 75% latency
+      reductions and 57% cost savings by pairing adaptive placement with
+      telemetry-informed routing.
     </li>
     <li>
-      Collaborated with industry partners to operationalize hybrid quantum-classical workflows, with research
-      featured in IEEE/ACM CCGrid 2023 and 2025.
+      Collaborated with industry partners to operationalize hybrid
+      quantum-classical workflows, with research featured in IEEE/ACM CCGrid
+      2023 and 2025.
     </li>
     <li>
-      Contributed to Triparts, a scalable streaming graph partitioning system (accepted to VLDB 2025).
+      Contributed to Triparts, a scalable streaming graph partitioning system
+      (accepted to VLDB 2025).
     </li>
   </Workplace>
-
 </section>
 
 <section class="layout-md py-12">
@@ -90,10 +94,12 @@
   <h4 class="font-medium mt-4 mb-1">Teaching:</h4>
   <ul>
     <li>
-      Head Teaching Assistant for ECE 4150 — Cloud Computing, Georgia Tech (Spring 2025)
+      Head Teaching Assistant for ECE 4150 — Cloud Computing, Georgia Tech
+      (Spring 2025)
     </li>
     <li>
-      Led course delivery, AWS labs, and mentor program for cloud-native capstones
+      Led course delivery, AWS labs, and mentor program for cloud-native
+      capstones
     </li>
   </ul>
 
@@ -112,19 +118,31 @@
   <div class="mb-4">
     <ul>
       <li>
-        <b>QuArch: A Benchmark for Evaluating LLM Reasoning in Computer Architecture.</b>
+        <b
+          >QuArch: A Benchmark for Evaluating LLM Reasoning in Computer
+          Architecture.</b
+        >
         <em>ICLR</em>, 2026 (submitted).
       </li>
       <li>
-        <b>Triparts: Scalable Streaming Graph Partitioning to Enhance Community Structure.</b>
+        <b
+          >Triparts: Scalable Streaming Graph Partitioning to Enhance Community
+          Structure.</b
+        >
         <em>VLDB</em>, 2025 (accepted).
       </li>
       <li>
-        <b>Choreography and Profiling of Quantum-Classical FaaS Workflows on Hybrid Clouds.</b>
+        <b
+          >Choreography and Profiling of Quantum-Classical FaaS Workflows on
+          Hybrid Clouds.</b
+        >
         <em>IEEE/ACM CCGrid</em>, 2025.
       </li>
       <li>
-        <b>XFaaS: Cross-platform Orchestration of FaaS Workflows on Hybrid Clouds.</b>
+        <b
+          >XFaaS: Cross-platform Orchestration of FaaS Workflows on Hybrid
+          Clouds.</b
+        >
         <em>IEEE/ACM CCGrid</em>, 2023.
       </li>
     </ul>
@@ -132,7 +150,11 @@
 
   <p class="mt-4">
     Full list available on
-    <a class="link" href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&hl=en">Google Scholar</a>.
+    <a
+      class="link"
+      href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&hl=en"
+      >Google Scholar</a
+    >.
   </p>
 </section>
 

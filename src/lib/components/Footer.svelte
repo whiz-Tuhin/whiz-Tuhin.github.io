@@ -7,7 +7,9 @@
   <div class="row">
     <span>LinkedIn</span>
     <hr />
-    <a class="link" href="https://www.linkedin.com/in/tuhin-khare/">tuhin-khare</a>
+    <a class="link" href="https://www.linkedin.com/in/tuhin-khare/"
+      >tuhin-khare</a
+    >
   </div>
   <div class="row">
     <span>Email</span>
@@ -17,7 +19,11 @@
   <div class="row">
     <span>Scholar</span>
     <hr />
-    <a class="link" href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&hl=en">Google Scholar</a>
+    <a
+      class="link"
+      href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&hl=en"
+      >Google Scholar</a
+    >
   </div>
 </footer>
 
