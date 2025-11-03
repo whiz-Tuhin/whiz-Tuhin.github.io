@@ -78,7 +78,7 @@
 
   <div class="mb-6">
     <div class="flex items-start gap-3 mb-2">
-      <img src="/images/georgiatech.svg" alt="Georgia Tech logo" class="w-8 h-8 object-contain flex-shrink-0 mt-1" />
+      <img src="/images/georgiatech.svg" alt="Georgia Tech logo" class="w-12 h-12 object-contain flex-shrink-0 mt-0.5" />
       <div class="flex-1">
         <div class="flex justify-between items-end">
           <h3 class="text-black text-lg">Georgia Institute of Technology</h3>
@@ -93,7 +93,7 @@
 
   <div class="mb-6">
     <div class="flex items-start gap-3 mb-2">
-      <img src="/images/manipal.pdf" alt="Manipal logo" class="w-8 h-8 object-contain flex-shrink-0 mt-1" />
+      <img src="/images/manipal.svg" alt="Manipal logo" class="w-12 h-12 object-contain flex-shrink-0 mt-0.5" />
       <div class="flex-1">
         <div class="flex justify-between items-end">
           <h3 class="text-black text-lg">Manipal Institute of Technology</h3>
