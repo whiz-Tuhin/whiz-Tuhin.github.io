@@ -21,7 +21,11 @@
   >
     <div class="flex items-start gap-3">
       {#if logo}
-        <img src={logo} alt="{company} logo" class="w-12 h-12 object-contain flex-shrink-0 mt-0.5" />
+        <img
+          src={logo}
+          alt="{company} logo"
+          class="w-12 h-12 object-contain flex-shrink-0 mt-0.5"
+        />
       {/if}
       <div class="flex-1">
         <h3 class="text-black text-lg leading-tight mb-1">
