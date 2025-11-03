@@ -135,7 +135,8 @@
   <div class="space-y-5">
     <img
       alt="Tuhin Khare portrait"
-      src="https://avatars.githubusercontent.com/u/43981969?v=4"
+      src="/images/photo.jpg"
+      class="rounded-lg shadow-lg"
     />
   </div>
 </div>

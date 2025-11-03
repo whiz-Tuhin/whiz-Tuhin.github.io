@@ -1,4 +1,4 @@
-<footer class="layout-md mt-20 text-lg flex flex-col">
+<footer class="layout-md mt-20 text-base flex flex-col">
   <div class="row">
     <span>GitHub</span>
     <hr />
@@ -29,14 +29,18 @@
 
 <style lang="postcss">
   .row {
-    @apply flex items-center space-x-4;
+    @apply flex items-center space-x-3 mb-1;
   }
 
   .row span {
-    @apply text-neutral-500;
+    @apply text-neutral-500 w-20 flex-shrink-0;
   }
 
   .row hr {
     @apply w-full mt-0.5 border-neutral-300 border-dotted;
+  }
+
+  .row a {
+    @apply flex-shrink-0;
   }
 </style>
