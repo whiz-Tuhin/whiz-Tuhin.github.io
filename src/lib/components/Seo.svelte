@@ -11,7 +11,7 @@
   <meta property="og:description" content={description} />
   <meta
     property="og:image"
-    content="https://www.ekzhang.com/assets/images/hudson-landscape.jpg"
+    content="https://avatars.githubusercontent.com/u/43981969?v=4"
   />
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="summary" />
 </svelte:head>

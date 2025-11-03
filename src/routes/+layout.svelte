@@ -18,21 +18,7 @@
 </script>
 
 <svelte:head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  {#if !dev}
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-156644599-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-156644599-1");
-    </script>
-  {/if}
+  <!-- Add your analytics here if needed -->
 </svelte:head>
 
 <Header />

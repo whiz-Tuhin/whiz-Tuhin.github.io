@@ -1,18 +1,23 @@
 <footer class="layout-md mt-20 text-lg flex flex-col">
   <div class="row">
-    <span>Twitter</span>
-    <hr />
-    <a class="link" href="https://twitter.com/ekzhang1">@ekzhang1</a>
-  </div>
-  <div class="row">
     <span>GitHub</span>
     <hr />
-    <a class="link" href="https://github.com/ekzhang">@ekzhang</a>
+    <a class="link" href="https://github.com/whiz-Tuhin">@whiz-Tuhin</a>
+  </div>
+  <div class="row">
+    <span>LinkedIn</span>
+    <hr />
+    <a class="link" href="https://www.linkedin.com/in/tuhin-khare/">tuhin-khare</a>
   </div>
   <div class="row">
     <span>Email</span>
     <hr />
-    <a class="link" href="mailto:ekzhang1@gmail.com">ekzhang1@gmail.com</a>
+    <a class="link" href="mailto:tkhare7@gatech.edu">tkhare7@gatech.edu</a>
+  </div>
+  <div class="row">
+    <span>Scholar</span>
+    <hr />
+    <a class="link" href="https://scholar.google.com/citations?user=gOqbVdUAAAAJ&hl=en">Google Scholar</a>
   </div>
 </footer>
 
