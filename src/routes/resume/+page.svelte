@@ -36,7 +36,7 @@
     url="https://faculty.cc.gatech.edu/~atumanov/"
     dates="Aug 2024 – Present"
     location="Atlanta, GA"
-    logo="/images/georgiatech.svg"
+    logo="/images/GTVertical_RGB.svg"
   >
     <li>
       Designing policy-decoupled C++ abstractions for programmable inference
