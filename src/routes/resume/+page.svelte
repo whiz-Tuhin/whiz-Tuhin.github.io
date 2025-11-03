@@ -79,9 +79,9 @@
   <div class="mb-6">
     <div class="flex items-start gap-3 mb-2">
       <img
-        src="/images/georgiatech.svg"
+        src="/images/GTVertical_RGB.svg"
         alt="Georgia Tech logo"
-        class="w-16 h-16 object-contain flex-shrink-0 mt-0"
+        class="w-20 h-20 object-contain flex-shrink-0 mt-0"
       />
       <div class="flex-1">
         <div class="flex justify-between items-end">
@@ -98,9 +98,9 @@
   <div class="mb-6">
     <div class="flex items-start gap-3 mb-2">
       <img
-        src="/images/manipal.svg"
+        src="/images/manipal-vertical.png"
         alt="Manipal logo"
-        class="w-16 h-16 object-contain flex-shrink-0 mt-0"
+        class="w-20 h-20 object-contain flex-shrink-0 mt-0"
       />
       <div class="flex-1">
         <div class="flex justify-between items-end">

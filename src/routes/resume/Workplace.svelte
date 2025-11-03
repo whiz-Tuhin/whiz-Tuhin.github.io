@@ -24,7 +24,7 @@
         <img
           src={logo}
           alt="{company} logo"
-          class="w-16 h-16 object-contain flex-shrink-0 mt-0"
+          class="w-20 h-20 object-contain flex-shrink-0 mt-0"
         />
       {/if}
       <div class="flex-1">
