@@ -85,10 +85,10 @@
 
   <div class="mb-4">
     <div class="flex justify-between items-end">
-      <h3 class="text-black text-lg">PES University</h3>
+      <h3 class="text-black text-lg">Manipal Institute of Technology</h3>
       <div class="text-neutral-500 mb-0.5">2016 — 2020</div>
     </div>
-    <p class="byline">B.E. in Computer Science</p>
+    <p class="byline">B.Tech. in Computer Science</p>
   </div>
 
   <h4 class="font-medium mt-4 mb-1">Teaching:</h4>
